@@ -207,4 +207,6 @@ In looking over all the information on the two models, I found that it would be 
 
 ...Just placing my curiosity into the bowl :)
 
+# Conclusions
 
+In depending on the model, you will either get that the first and second paragraph were both positive with a bit of subjectivity by the authors (TextBlob) or You will get that the first paragraph was immensley negative while the second paragraph was immensley positive (VADER). I believe VADER was the more accurate model based on what you've seen above and the error presented by TextBlob in the first test. Therefore, the sentiment of the first paragraph was negative, and the second positive.

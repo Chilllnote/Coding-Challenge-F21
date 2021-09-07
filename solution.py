@@ -143,7 +143,7 @@ final_data['Analysis'] = final_data['Polarity'].apply(analysis)
 
 print(final_data.head())
 
-
+'''
 list_pieces = []
 for t in df['The text']:
     split = split_text(t, 10)
@@ -161,3 +161,4 @@ print(polarity_transcript[1])
 plt.plot(polarity_transcript[1])
 plt.title("Paragraph_2 polarity over time")
 plt.show()
+'''

@@ -99,9 +99,10 @@ Same thing as the first but with VADER instead of textBlob
 
 This resulted in a result that differed quite a bit:
 
-           Cleaned text        Lemma       Vader           Sentiment Vader Analysis
-Paragraph_1  Stop ...            Stop        -0.8275         Negative    
-Paragraph_2  I thin...           think       0.9979          Positive   
+| Cleaned text|Lemma|Vader|Sentiment Vader Analysis|             |
+|-------------|-----|-----|------------------------|
+|Paragraph_1|  Stop ...       |     Stop   |     -0.8275     |    Negative |   
+|Paragraph_2  |I thin...      |     think     |  0.9979         | Positive   |
 
 Like the analysis I gave of the text a while ago, Vader analysis returned that paragraph 1 is negative...though it reported that paragraph_2 was positive. Such an analysis, and one that is almost reaching highly positive in mention of the text, means that there is probably some subjective language being used, that being the most likely reason for why it isn’t neutral (This, although, aligns with my hypothesis)
 

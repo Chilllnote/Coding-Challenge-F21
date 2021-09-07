@@ -123,9 +123,10 @@ By cleaning up the data with clarification of word use via POS tagging then lemm
 
 Same thing but with textBlob now
 
-           Cleaned text      Lemma  Subjectivity  Polarity  Analysis
-Paragra...   Stop ...      Stop...   0.640909     0.331818  Positive
-Paragra...  I thin...      thin...   0.597738     0.233452  Positive
+|Part of text| Cleaned text |     Lemma|  Subjectivity | Polarity|  Analysis|
+|------------|--------------|----------|---------------|---------|----------|
+|Paragra...|   Stop ...      |Stop... |  0.640909  |   0.331818 | Positive|
+|Paragra... | I thin...     | thin...  | 0.597738   |  0.233452 | Positive|
 
 Again, there is far more of a jump with Beatty's dream dialouge than Benjamin Franklin biography. Still though, textBlob is coming up short
 

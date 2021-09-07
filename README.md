@@ -99,7 +99,7 @@ Same thing as the first but with VADER instead of textBlob
 
 This resulted in a result that differed quite a bit:
 
-| Cleaned text|Lemma|Vader|Sentiment Vader Analysis|             |
+| Cleaned text|Lemma|Vader|Sentiment Vader Analysis|             
 |-------------|-----|-----|------------------------|
 |Paragraph_1|  Stop ...       |     Stop   |     -0.8275     |    Negative |   
 |Paragraph_2  |I thin...      |     think     |  0.9979         | Positive   |

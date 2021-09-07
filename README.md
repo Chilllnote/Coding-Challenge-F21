@@ -72,6 +72,9 @@ https://www.analyticsvidhya.com/blog/2021/06/rule-based-sentiment-analysis-in-py
 
 https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/03_subset_data.html (I also, of course, used the pandas documentaion in the creation of the data frame)
 
+
+(Also, I did my code within the Spyder IDE via anaconda. It's the coding environment I'm most used to for data analysis in python. I could, of course, do jupyter notebook but I wanted to be in my "natural place" if you will.)
+
 # How it works
 
 So, I actually did multiple different tests for the data:

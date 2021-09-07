@@ -109,7 +109,7 @@ This resulted in a result that differed quite a bit:
 |Paragraph_1  |Stop ...     |Stop |-0.8275  | Negative               |   
 |Paragraph_2  |I thin...    |think|0.9979   | Positive               |
 
-Like the analysis I gave of the text a while ago, Vader analysis returned that paragraph 1 is negative...though it reported that paragraph_2 was positive. Such an analysis, and one that is almost reaching highly positive in mention of the text, means that there is probably some subjective language being used, that being the most likely reason for why it isn’t neutral (This, although, aligns with my hypothesis)
+Like the analysis I gave of the text in my hypothesis, Vader analysis returned that paragraph 1 is negative...though it reported that paragraph_2 was positive. Such an analysis, and one that is almost reaching highly positive in mention of the text, means that there is probably some subjective language being used, that being the most likely reason for why it isn’t neutral (This, although, aligns with my hypothesis)
 
 **Third test (Cleaned up the data and did some lemmatization, still using vader analysis):**
 
@@ -122,7 +122,7 @@ Not much change….
 |Paragra...   |Stop ...   |   Stop...|    -0.7665  |       Negative |   
 |Paragra...  |I thin...    |  thin... |    0.9963   |      Positive  | 
 
-By cleaning up the data with clarification of word use via POS tagging then lemmatization of those words...we didn’t really get much of a difference. Interestingly though, there is such a low change with the franklin biography while there is almost a full .1 change for the Beatty monologue. 
+By cleaning up the data with clarification of word use via POS tagging then lemmatization of those words...we didn’t really get much of a difference. Interestingly though, there is such a low change with the franklin biography while there is almost a full .1 change for the Beatty monologue towards positivity. 
 
 **Fourth test (Cleaned up the data and did some lemmatization, used textblob):**
 
@@ -166,6 +166,8 @@ After separating the text of paragraph_1 into 10 segments, those segments gave s
 After separating the text of paragraph_1 into 10 segments, those segments gave scores of:
 
 [0.8919, 0.8883, 0.9366, 0.3919, 0.7184, 0.8591, 0.842, -0.1531, 0.4033, 0.5758]
+
+You can see that textBlob stays mostly positive (or above netural) for most of it's processing while VADER dips between positive and negative throughout it's analysis. __VADER is obviously giving the text of paragraph one a better analysis than textBlob over time__
 
 # Why is there a differnce?
 

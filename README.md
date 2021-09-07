@@ -183,9 +183,10 @@ The documentation of VADER also contains some interesting things...but I’m afr
 
 I noticed I used Vader wrong, although, as I got rid of the punctuation and structure of the sentence. So, how does the analysis look with all of those things included?
 
-           The text     Lemma   Vader Sentiment   Vader Analysis
-Paragra_1  "Stop ...    Stop...    -0.9228           Negative    
-Paragra_2  I thin...    thin...     0.9979           Positive  
+|Part of text|Raw text|Lemma|Vader Sentiment |  Vader Analysis|
+|------------|--------|-----|----------------|----------------|
+|Paragraph_1 | "Stop ...|    Stop...|    -0.9228 |          Negative|    
+|Paragraph_2 | I thin...|    thin... |    0.9979|           Positive | 
 
 ![Picture5](https://user-images.githubusercontent.com/22717191/132310202-d148e8f9-12d2-4261-8103-28b4a627c603.png)
 

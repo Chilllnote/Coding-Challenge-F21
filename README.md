@@ -82,9 +82,10 @@ I got rid of all the special characters and did not process the data with lemmat
 
 Results were wrong, at least in my eye:
 
-                Cleaned text     Lemma      Subjectivity   Polarity  Analysis
-Paragraph_1       Stop ...         Stop         0.624206     0.174603  Positive
-Paragraph_2       I thin...        think        0.585794     0.221746  Positive
+|part of text|Cleaned text|Lemma|Subjectivity|Polarity|Analysis|
+|------------|------------|-----|------------|--------|--------|
+|Paragraph_1 |Stop ...    |Stop | 0.624206   |0.174603|Positive|
+|Paragraph_2 |I thin...   |think| 0.585794   |0.221746|  Positive
 
 Paragraph one returned a positive analysis for a scene that is meant to be tense and mocking of one person. It even uses language like yelled, towered, and screamed. This doesn’t even mention the mockery.
 
@@ -110,7 +111,7 @@ Same analysis, just with the use of lemmatization
 
 Not much change….
 
-           Cleaned text      Lemma  Vader Sentiment Vader Analysis
+           Cleaned text    Lemma  Vader Sentiment Vader Analysis
 Paragra...   Stop ...      Stop...    -0.7665         Negative    
 Paragra...  I thin...      thin...     0.9963         Positive   
 

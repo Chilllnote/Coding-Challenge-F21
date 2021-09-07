@@ -44,21 +44,21 @@ I’ll have to separate the paragraphs, but it’s simple what should come: rage
 
 I used the packages:
 
-Punkt
-Averaged_perceptron_tagger
-Stopwords
-wordnet
+Punkt,
+Averaged_perceptron_tagger,
+Stopwords,
+and wordnet
 
 I used the libraries:
 
-numpy
-matplotlib
-math
-nltk
-vaderSentiment
-TextBlob
-pandas
-re
+numpy,
+matplotlib,
+math,
+nltk,
+vaderSentiment,
+TextBlob,
+pandas,
+and re
 
 And I used these tutorials and articles in the process of this README:
 

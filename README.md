@@ -68,6 +68,8 @@ https://nlp.stanford.edu/courses/cs224n/2009/fp/24.pdf (This is the documentatio
 
 https://medium.com/@piocalderon/vader-sentiment-analysis-explained-f1c4f9101cd9 (This is an explanation for how VADER sentiment analysis works)
 
+https://github.com/cjhutto/vaderSentiment (This is the documentaion used in reference)
+
 https://www.analyticsvidhya.com/blog/2021/06/rule-based-sentiment-analysis-in-python/#h2_5 (This is the main tutorial I followed for coding the model)
 
 https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/03_subset_data.html (I also, of course, used the pandas documentaion in the creation of the data frame)

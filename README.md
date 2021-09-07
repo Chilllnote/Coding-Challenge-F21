@@ -82,7 +82,7 @@ I got rid of all the special characters and did not process the data with lemmat
 
 Results were wrong, at least in my eye:
 
-|part of text|Cleaned text|Lemma|Subjectivity|Polarity|Analysis|
+|Part of text|Cleaned text|Lemma|Subjectivity|Polarity|Analysis|
 |------------|------------|-----|------------|--------|--------|
 |Paragraph_1 |Stop ...    |Stop | 0.624206   |0.174603|Positive|
 |Paragraph_2 |I thin...   |think| 0.585794   |0.221746|  Positive
@@ -99,10 +99,10 @@ Same thing as the first but with VADER instead of textBlob
 
 This resulted in a result that differed quite a bit:
 
-| Cleaned text|Lemma|Vader|Sentiment Vader Analysis|             
-|-------------|-----|-----|------------------------|
-|Paragraph_1  |Stop ...|Stop|-0.8275| Negative |   
-|Paragraph_2  |I thin...|think|0.9979| Positive   |
+| Part of text|Cleaned text |Lemma|polarity |Sentiment Vader Analysis|             
+|-------------|-------------|-----|---------|------------------------|
+|Paragraph_1  |Stop ...     |Stop |-0.8275  | Negative               |   
+|Paragraph_2  |I thin...    |think|0.9979   | Positive               |
 
 Like the analysis I gave of the text a while ago, Vader analysis returned that paragraph 1 is negative...though it reported that paragraph_2 was positive. Such an analysis, and one that is almost reaching highly positive in mention of the text, means that there is probably some subjective language being used, that being the most likely reason for why it isn’t neutral (This, although, aligns with my hypothesis)
 
@@ -112,9 +112,10 @@ Same analysis, just with the use of lemmatization
 
 Not much change….
 
-           Cleaned text    Lemma  Vader Sentiment Vader Analysis
-Paragra...   Stop ...      Stop...    -0.7665         Negative    
-Paragra...  I thin...      thin...     0.9963         Positive   
+|Part of text|Cleaned text|Lemma|polarity| Sentiment Vader Analysis|
+|------------|------------|-----|--------|-------------------------|
+|Paragra...   |Stop ...   |   Stop...|    -0.7665  |       Negative |   
+|Paragra...  |I thin...    |  thin... |    0.9963   |      Positive  | 
 
 By cleaning up the data with clarification of word use via POS tagging then lemmatization of those words...we didn’t really get much of a difference. Interestingly though, there is such a low change with the franklin biography while there is almost a full .1 change for the Beatty monologue. 
 
